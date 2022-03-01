@@ -24,8 +24,8 @@ header {
 }
 
 #header-logo {
-    margin-top: 20px;
     height: 40px;
+    margin-top: 20px;
 }
 
 /* MAIN */
@@ -81,4 +81,29 @@ h2.main-header-author {
 
 .content table .odd-row {
     background-color: lightblue;
+}
+
+/* FOOTER */
+h3.footer-title {
+    margin-bottom: 1em;
+    font-size: 1rem;
+    color: grey;
+}
+
+.footer-item {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 1em;
+    padding: 1em;
+    background-color: #4ea0ff;
+    color: white;
+    background-repeat: none;
+}
+
+#computer {
+    background-image: url(../img/monitor.jpg);
+}
+
+#graph {
+    background-image: url(../img/graph.jpg);
 }
