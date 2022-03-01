@@ -11,6 +11,10 @@
     margin: 0 auto;
 }
 
+.mt-2 {
+    margin-top: 1.5em;
+}
+
 /* HEADER */
 header {
     height: 60px;
@@ -22,4 +26,59 @@ header {
 #header-logo {
     margin-top: 20px;
     height: 40px;
+}
+
+/* MAIN */
+
+/* Main header */
+h2.main-header-author {
+    font-size: 1em;
+    color: grey
+}
+
+.author {
+    color: #5eb8d6;
+}
+
+.main-header-date {
+    font-size: .8em;
+    color: grey;
+}
+
+/* Main photo gallery */
+.main-photo-gallery img {
+    max-width: 100%;
+}
+
+.main-photo-gallery .caption {
+    font-size: .8em;
+    color: grey;
+}
+
+/* Content */
+.highlight {
+    background-color: yellow;
+}
+
+.content ul {
+    margin-left: 1em;
+}
+
+/* Content Table */
+
+.content table {
+    border-collapse: collapse;
+}
+
+.content table thead {
+    background-color: #4ea0ff;
+    text-align: left;
+}
+
+.content table .large-column {
+    width: 50%;
+}
+
+.content table .odd-row {
+    background-color: lightblue;
 }
